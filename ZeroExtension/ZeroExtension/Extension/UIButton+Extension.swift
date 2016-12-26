@@ -7,7 +7,11 @@
 //
 
 import UIKit
-import SDWebImage
+import Foundation
+//import SDWebImage
+
+
+
 
 public enum GradientType : UInt {
     case TopBottom // 从上到下
@@ -17,6 +21,8 @@ public enum GradientType : UInt {
 }
 
 extension UIButton {
+    
+    
     
     /**
      开启非wifi状态下关闭下载图片
@@ -76,7 +82,7 @@ extension UIButton {
             return (self.titleLabel?.font.pointSize)!
         }
         set {
-            if isIphone6p {
+            if Iphone6p {
                 self.titleLabel?.font = UIFont(name: (self.titleLabel?.font.fontName)!, size: newValue * 1.1)
             } else {
                 self.titleLabel?.font = UIFont(name: (self.titleLabel?.font.fontName)!, size: newValue)

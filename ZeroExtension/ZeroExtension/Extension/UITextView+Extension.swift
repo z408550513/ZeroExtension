@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import UIKit
+
 
 
 extension UITextView {
@@ -16,7 +18,7 @@ extension UITextView {
             return self.font!.pointSize
         }
         set {
-            if isIphone6p {
+            if iphone6p {
                 self.font = UIFont(name: self.font!.fontName, size: newValue * 1.1)
             } else {
                 self.font = UIFont(name: self.font!.fontName, size: newValue)

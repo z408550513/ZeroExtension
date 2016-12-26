@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import CoreFoundation
+import UIKit
 
 enum FontWeight {
     case Light(fontSize: CGFloat)
@@ -52,17 +54,17 @@ extension UIFont {
     
     // 设置自定义字体（代码）
     convenience init(customFontName: String, size: CGFloat) {
-        self.init(name: customFontName, size: (isIphone6p ? size * 1.1 : size))!
+        self.init(name: customFontName, size: (iphone6p ? size * 1.1 : size))!
     }
     
     // 设置字体大小
     class func setupCustomFontSize(size: CGFloat) -> UIFont {
-        return UIFont.systemFontOfSize((isIphone6p ? size * 1.1 : size))
+        return UIFont.systemFontOfSize((iphone6p ? size * 1.1 : size))
     }
     
     // 设置粗体字体大小
     class func setupCustomBoldFontSize(size: CGFloat) -> UIFont {
-        return UIFont.boldSystemFontOfSize((isIphone6p ? size * 1.1 : size))
+        return UIFont.boldSystemFontOfSize((iphone6p ? size * 1.1 : size))
     }
     
     

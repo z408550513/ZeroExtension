@@ -21,6 +21,7 @@
 		3B64993B1E111FA300030346 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6499321E111FA300030346 /* UITextField+Extension.swift */; };
 		3B64993C1E111FA300030346 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6499331E111FA300030346 /* UITextView+Extension.swift */; };
 		3B64993D1E111FA300030346 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6499341E111FA300030346 /* UIView+Extension.swift */; };
+		3B6499421E11319200030346 /* ZeroExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6499411E11319200030346 /* ZeroExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		3B6499321E111FA300030346 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		3B6499331E111FA300030346 /* UITextView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
 		3B6499341E111FA300030346 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		3B6499411E11319200030346 /* ZeroExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZeroExtension.swift; sourceTree = "<group>"; };
+		3B6499431E11319900030346 /* ZeroExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZeroExtension.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				3B64992B1E111FA300030346 /* Extension */,
 				3B6499191E111F8A00030346 /* AppDelegate.swift */,
 				3B64991B1E111F8A00030346 /* ViewController.swift */,
+				3B6499411E11319200030346 /* ZeroExtension.swift */,
+				3B6499431E11319900030346 /* ZeroExtension.h */,
 				3B64991D1E111F8A00030346 /* Main.storyboard */,
 				3B6499201E111F8A00030346 /* Assets.xcassets */,
 				3B6499221E111F8A00030346 /* LaunchScreen.storyboard */,
@@ -174,6 +179,7 @@
 				3B64993D1E111FA300030346 /* UIView+Extension.swift in Sources */,
 				3B64993B1E111FA300030346 /* UITextField+Extension.swift in Sources */,
 				3B64993A1E111FA300030346 /* UILabel+Extension.swift in Sources */,
+				3B6499421E11319200030346 /* ZeroExtension.swift in Sources */,
 				3B6499381E111FA300030346 /* UIFont+Extension.swift in Sources */,
 				3B64993C1E111FA300030346 /* UITextView+Extension.swift in Sources */,
 				3B6499391E111FA300030346 /* UIImage+Extension.swift in Sources */,
@@ -309,7 +315,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zero.ZeroExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = ZeroExtension/ZeroExtension.h;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -322,7 +329,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zero.ZeroExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = ZeroExtension/ZeroExtension.h;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -345,6 +353,7 @@
 				3B64992A1E111F8A00030346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

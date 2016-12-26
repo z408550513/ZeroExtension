@@ -223,14 +223,4 @@ extension String {
     
 }
 
-func ImageUrlStringCheck(url : String ) -> String{
-    
-    
-    if url.hasPrefix("http://") {
-        
-        return url
-    }
-    return appApi + url
-    
-    
-}
+

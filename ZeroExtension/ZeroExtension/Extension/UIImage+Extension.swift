@@ -1,10 +1,4 @@
-//
-//  UIImage+Extension.swift
-//  MYLY
-//
-//  Created by 黄杰 on 15/8/18.
-//  Copyright © 2015年 &#40644;&#26480;. All rights reserved.
-//
+
 
 import Foundation
 import UIKit

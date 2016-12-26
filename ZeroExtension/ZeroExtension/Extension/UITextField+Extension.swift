@@ -1,10 +1,3 @@
-//
-//  UITextField+Extension.swift
-//  JadeWrench
-//
-//  Created by 黄杰 on 2016/11/30.
-//  Copyright © 2016年 mac. All rights reserved.
-//
 
 import Foundation
 import UIKit

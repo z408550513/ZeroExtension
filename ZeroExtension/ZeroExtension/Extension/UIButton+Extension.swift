@@ -1,10 +1,7 @@
-//
-//  UIButton+Extension.swift
-//  THSC
-//
-//  Created by 黄杰 on 16/1/9.
-//  Copyright © 2016年 黄杰. All rights reserved.
-//
+
+
+
+
 
 import UIKit
 import Foundation

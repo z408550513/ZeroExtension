@@ -1,10 +1,4 @@
-//
-//  UIFont+Extension.swift
-//  WuFeng
-//
-//  Created by 黄杰 on 15/11/4.
-//  Copyright © 2015年 黄杰. All rights reserved.
-//
+
 
 import Foundation
 import CoreFoundation
